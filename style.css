@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-left: 125px;
+    font-size: larger;
+}
+
+header > h1 {
+    margin-bottom: 5px;
+}
+
+header > p {
+    margin-top: 5px;
+}
+
+#breadcrumbs {
+    width: 100%;
+    background-color: #ff4852;
+    color: white;
+    font-size: larger;
+    height: 5em;
+    line-height: 5em;
+    padding-left: 125px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #110c1c;
+}
+
+footer > * {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer-elem > * {
+    color: white;
+
+}
