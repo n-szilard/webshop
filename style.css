@@ -4,7 +4,6 @@ html, body {
 }
 
 header {
-    width: 100%;
     padding-left: 125px;
     font-size: larger;
 }
@@ -18,7 +17,6 @@ header > p {
 }
 
 #breadcrumbs {
-    width: 100%;
     background-color: #ff4852;
     color: white;
     font-size: larger;
@@ -29,16 +27,24 @@ header > p {
 
 footer {
     display: flex;
-    width: 100%;
+    padding-left: 125px;
+    padding-right: 125px;
     background-color: #110c1c;
 }
 
 footer > * {
-    padding-left: 25px;
-    padding-right: 25px;
+    flex: 1;
 }
 
 .footer-elem > * {
     color: white;
 
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 125px;
+    padding-bottom: 25px;
+    padding-right: 25px;
 }
